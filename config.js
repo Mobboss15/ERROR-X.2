@@ -1,16 +1,16 @@
 require("./database/module")
 
 //GLOBAL PAYMENT
-global.storename = "ERROR-X.2 "
+global.storename = "Re-Jeong "
 global.dana = "-"
 global.qris = "https://a.top4top.io/p_319465f4i0.jpeg"
 
 
 // GLOBAL SETTING
 global.owner = "27623649420" //masukin no lu
-global.namabot = "ERROR-X.2 V4"
+global.namabot = "Re-Jeong V4"
 global.nomorbot = "27623649420" //masukin no lu
-global.namaCreator = "ERROR-X.2 "
+global.namaCreator = "Re-Jeong "
 global.linkyt = "-"
 global.autoJoin = false
 global.antilink = false
@@ -31,10 +31,10 @@ global.location = '1'
 //GLOBAL THUMB
 
 global.codeInvite = ""
-global.imageurl = 'https://i.ibb.co/nBJY4Ny/IMG-20241017-WA0195-1.jpg'
-global.isLink = 'https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C'
-global.packname = "ERROR-X.2"
-global.author = "ERROR-X.2"
+global.imageurl = 'https://telegra.ph/file/019207dd7bf306d343b7e.jpg'
+global.isLink = 'https://whatsapp.com/channel/0029ValVRdpI1rcfS1rAJq3h'
+global.packname = "Re-Jeong"
+global.author = "Re-Jeong"
 global.jumlah = "5"
 
 

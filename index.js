@@ -34,7 +34,7 @@ async function startSesi() {
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 const { state, saveCreds } = await useMultiFileAuthState(`./session`)
 const { version, isLatest } = await fetchLatestBaileysVersion()
-    console.log(chalk.red.bold('\n\n\n\n\n\n╭╮\n┃╭╮━┃╰╮╭╯┃\n╮╰╯╭╯\n╱╱╰╮╭╯╱\n╱╱┃┃╱╱\n╱╱╱\n\nRe--Jeong Version 4.0.0\n\nCreated By : Re-Jeong Developer\nTelegram : @guanxiiemmyhenz.nSubscribe Youtube : @Re-Jeong'))
+    console.log(chalk.red.bold('\n\n\n\n\n\n╭╮\n┃╭╮━┃╰╮╭╯┃\n╮╰╯╭╯\n╱╱╰╮╭╯╱\n╱╱┃┃╱╱\n╱╱╱\n\nRe--Jeong Version 4.0.0\n\nCreated By : Re-Jeong Developer\nTelegram : @guanxiirejeong\nSubscribe Youtube : @Re-Jeong'))
 const connectionOptions = {
 version,
 keepAliveIntervalMs: 30000,
@@ -44,16 +44,16 @@ auth: state,
 browser: [ "Ubuntu", "Chrome", "20.0.04" ]   
 // browser: ['Chrome (Linux)', '', '']
 }
-const emmyhenz.= func.makeWASocket(connectionOptions)
-if(usePairingCode && !emmyhenz.authState.creds.registered) {
+const rejeong = func.makeWASocket(connectionOptions)
+if(usePairingCode && !rejeong.authState.creds.registered) {
 		const phoneNumber = await question(chalk.green('\nEnter Your Number\nNumber : '));
-		const code = await emmyhenz.requestPairingCode(phoneNumber.trim())
+		const code = await rejeong.requestPairingCode(phoneNumber.trim())
 		console.log(chalk.green(`Your Pairing Code : ${code} `))
 
 	}
-store.bind(emmyhenz.ev)
+store.bind(rejeong.ev)
 
-emmyhenz.ev.on('connection.update', async (update) => {
+rejeong.ev.on('connection.update', async (update) => {
 const { connection, lastDisconnect } = update
 if (connection === 'close') {
 const reason = new Boom(lastDisconnect?.error)?.output.statusCode
@@ -71,7 +71,7 @@ console.log(color('[SYSTEM]', 'white'), color('Connection lost, trying to reconn
 process.exit()
 } else if (reason === DisconnectReason.connectionReplaced) {
 console.log(color('Connection Replaced, Another New Session Opened, Please Close Current Session First'))
-emmyhenz.logout()
+rejeong.logout()
 } else if (reason === DisconnectReason.loggedOut) {
 console.log(color(`Device Logged Out, Please Scan Again And Run.`))
 zyn.logout()
@@ -86,16 +86,16 @@ startSesi()
 start(`1`, `Connecting...`)
 } else if (connection === "open") {
 success(`1`, `Tersambung`)
-emmyhenz.sendMessage(`27623649420@s.whatsapp.net`, { text: `\`𝗛𝗶 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿\`
+rejeong.sendMessage(`27623649420@s.whatsapp.net`, { text: `\`𝗛𝗶 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿\`
   Re-Jeong-V4 was connected, contact +27623649420 if you need any help`})
 if (autoJoin) {
-emmyhenz.groupAcceptInvite(codeInvite)
+rejeong.groupAcceptInvite(codeInvite)
 }
 }
 })
 
-emmyhenz.sendFile = async (jid, path, filename = '', caption = '', quoted, ptt = false, options = {}) => {
-  let type = await emmyhenz.getFile(path, true);
+rejeong.sendFile = async (jid, path, filename = '', caption = '', quoted, ptt = false, options = {}) => {
+  let type = await rejeong.getFile(path, true);
   let { res, data: file, filename: pathFile } = type;
 
   if (res && res.status !== 200 || file.length <= 65536) {
@@ -142,42 +142,42 @@ emmyhenz.sendFile = async (jid, path, filename = '', caption = '', quoted, ptt =
   let m;
 
   try {
-    m = await emmyhenz.sendMessage(jid, message, { ...opt, ...options });
+    m = await rejeong.sendMessage(jid, message, { ...opt, ...options });
   } catch (e) {
     //console.error(e)
     m = null;
   } finally {
-    if (!m) m = await emmyhenz.sendMessage(jid, { ...message, [mtype]: file }, { ...opt, ...options });
+    if (!m) m = await rejeong.sendMessage(jid, { ...message, [mtype]: file }, { ...opt, ...options });
     file = null;
     return m;
   }
 	}
-emmyhenz.ev.on('messages.upsert', async (chatUpdate) => {
+rejeong.ev.on('messages.upsert', async (chatUpdate) => {
 try {
 m = chatUpdate.messages[0]
 if (!m.message) return
 m.message = (Object.keys(m.message)[0] === 'ephemeralMessage') ? m.message.ephemeralMessage.message : m.message
-if (m.key && m.key.remoteJid === 'status@broadcast') return emmyhenz.readMessages([m.key])
-if (!emmyhenz.public && !m.key.fromMe && chatUpdate.type === 'notify') return
+if (m.key && m.key.remoteJid === 'status@broadcast') return rejeong.readMessages([m.key])
+if (!rejeong.public && !m.key.fromMe && chatUpdate.type === 'notify') return
 if (m.key.id.startsWith('BAE5') && m.key.id.length === 16) return
-m = func.smsg(emmyhenz. m, store)
-require("./emmyhenz.)(emmyhenz. m, store)
+m = func.smsg(rejeong, m, store)
+require("./rejeong")(rejeong, m, store)
 } catch (err) {
 console.log(err)
 }
 })
 
-emmyhenz.ev.on('contacts.update', (update) => {
+rejeong.ev.on('contacts.update', (update) => {
 for (let contact of update) {
-let id = emmyhenz.decodeJid(contact.id)
+let id = rejeong.decodeJid(contact.id)
 if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
 }
 })
 
-emmyhenz.public = true
+rejeong.public = true
 
-emmyhenz.ev.on('creds.update', saveCreds)
-return emmyhenz
+rejeong.ev.on('creds.update', saveCreds)
+return rejeong
 }
 
 startSesi()
