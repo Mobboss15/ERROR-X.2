@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=500&height=60&lines=HOLLA+WELCOME+TO+THIS+REPO!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=500&height=60&lines=YO+WELCOME+TO+THIS+ERROR-X.2+REPO!)](https://git.io/typing-svg)
 
    [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=FORK+AND+MAYBE+GIVE+US+A+STAR)](https://git.io/typing-svg)
 
@@ -7,8 +7,8 @@
 
 
 <a
-href="https://whatsapp.com/channel/0029ValVRdpI1rcfS1rAJq3h">
- <img alt="RE-JEONG-V4" height="300" src="https://telegra.ph/file/019207dd7bf306d343b7e.jpg">
+href="[[[[https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)">
+ <img alt="ERROR-X.2" height="300" src="https://telegra.ph/file/019207dd7bf306d343b7e.jpg">
   
 </p>
 <p align="center">
