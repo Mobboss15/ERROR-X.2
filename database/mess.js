@@ -10,12 +10,12 @@ const mess = {
        link: "`[ # ] whers the link??`",
    },
    error: {
-       fitur: "`[ # ] Talk to my owner`",
+       fitur: "`[ # ] Talk to my owner`"charlie or mr smile boss,
    },
    only: {
        group: "`[ # ] group`",
        private: "`[ # ] private`",
-       owner: "`[ # ] owner`",
+       owner: "`[ # ] owner`2349135615687",
        admin: "`[ # ] admin`",
        badmin: "`[ # ] bot must be admin`",
        premium: "`[ # ] sorry 😂you not a premium user`",
