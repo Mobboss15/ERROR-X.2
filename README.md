@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=500&height=60&lines=YO+WELCOME+TO+ERROR-X.2+REPO!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=500&height=60&lines=WELCOME+TO+ERROR-X.2+REPO!)](https://git.io/typing-svg)
 
    [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=FORK+AND+MAYBE+GIVE+US+A+STAR)](https://git.io/typing-svg)
 
@@ -8,7 +8,7 @@
 
 <a
 href="[[[[https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)](https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C)">
- <img alt="ERROR-X.2" height="300" src="https://telegra.ph/file/019207dd7bf306d343b7e.jpg">
+ <img alt="ERROR-X.2" height="300" src="https://i.ibb.co/nBJY4Ny/IMG-20241017-WA0195-1.jpg">
   
 </p>
 <p align="center">
@@ -18,7 +18,7 @@ href="[[[[https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C](https://whatsap
 <a href="https://github.com/EMMYHENZ-TECH?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/EMMYHENZ-TECH?label=Followers&style=social"></a>
 <a href="https://github.com/EMMYHENZ-TECH/ERROR-X.2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/EMMYHENZ-TECH/ERROR-X.2?&style=social"></a>
 <a href="https://github.com/EMMYHENZ-TECH/ERROR-X.2/network/members"><img title="Fork" src="https://img.shields.io/github/forks/EMMYHENZ-TECH/ERROR-X.2?style=social"></a>
-<a href="https://github.com/EMMYHENZ-TECH/ERROR-X.2/watchers"><img title="Watching=https://github.com/ERROR-X.2?label=Watching&style=social"></a>
+<a href="https://github.com/EMMYHENZ-TECH/ERROR-X.2/watchers"><img
 </p>
 
 
